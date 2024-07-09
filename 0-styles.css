@@ -1,0 +1,38 @@
+.icon {
+    background-image: url('./img/0-sprite.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 240px;
+    display: block;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    border: 1px solid #000;
+    border-radius: 5px;
+    list-style: none;
+    background-color: #F7F7F7;
+    text-align: center;
+    margin: 50px;
+    padding: 15px;
+    font-weight:bold;
+    font-size:xx-large;
+}
+
+.i-html {
+    background-position-x: 7px;
+} 
+
+.i-css {
+    background-position-x: -176px;
+}
+
+.i-js {
+    background-position-x: -361px;
+}
